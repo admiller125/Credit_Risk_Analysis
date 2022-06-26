@@ -8,7 +8,7 @@ The goal of this project is to use surpervised machine learning to create a mode
 
 In this project, 2019 loan data was imported and transformed to provide useful numerical data. Then the target class (loan status) was split from the rest of the data. Additionally, in order to improve the class imbalance the data was
 prepared using naive oversampling, SMOTE oversampling, undersampling, and combination over and under sampling using SMOTEEN. Logistic regression was performed on all of these data sets. Random forrest and an ensemble method called 
-adaptiveboosting was used to create additional models. An accuracy score, a confusion matrix, and a classification report was generated for each of these models to determine which would be the best method of determining which loans would
+adaptive boosting was used to create additional models. An accuracy score, a confusion matrix, and a classification report was generated for each of these models to determine which would be the best method of determining which loans would
 be repaid. 
 
 ## Results
@@ -96,7 +96,7 @@ Easy Ensemble Adaboost Results:
 ## Summary
 
 Overall when analyzing these models it is most important to minimize losses. The reason behind this is because a single unpaid loan has the potential to wipe out the gains made on between 5 (20% interest loans) and 20 (5% interest) loans.
-This implies that it is preferable to pass on potentially bad loans than it is to try to get every last loan that can be repaid. This suggests that it is crucial to maximize precision. 
+This implies that it is preferable to pass on potentially bad loans than it is to try to get every last loan that can be repaid. This suggests that it is crucial to maximize precision. In addition it is unlikely that the number of loans an individual would have would be in the 100s making missing out on false negative loans a fairly minor issue (unless that loan yields a very high interest rate).
 
 Based on the precision of the models I would rank them:
 
