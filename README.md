@@ -15,7 +15,7 @@ be repaid.
 
 First the logistic regression models were created with different sampling techniques. 
 
-* Naive Oversampling Results:
+Naive Oversampling Results:
 
 - The Balanced Accuracy Score is 0.639
 
@@ -27,7 +27,7 @@ First the logistic regression models were created with different sampling techni
 
 ![](Resources/naive_oversampling_classificationrept.PNG)
 
-* SMOTE Oversampling Results:
+SMOTE Oversampling Results:
 
 - The Balanced Accuracy Score is 0.663
 
@@ -39,7 +39,7 @@ First the logistic regression models were created with different sampling techni
 
 ![](Resources/smote_oversampling_classificationrept.PNG)
 
-* Undersampling Results:
+Undersampling Results:
 
 - The Balanced Accuracy Score is 0.544
 
@@ -52,7 +52,7 @@ First the logistic regression models were created with different sampling techni
 ![](Resources/undersampling_classificationrept.PNG)
 
 
-* Combination (Over and Under) Sampling Results:
+Combination (Over and Under) Sampling Results:
 
 - The Balanced Accuracy Score is 0.644
 
@@ -68,7 +68,7 @@ First the logistic regression models were created with different sampling techni
 Next the ensemble models were created with the following results.
  
 
-* Random Forest Results:
+Random Forest Results:
 
 - The Balanced Accuracy Score is 0.789
 
@@ -81,7 +81,7 @@ Next the ensemble models were created with the following results.
 ![](Resources/randomf_classificationrept.PNG)
 
 
-* Easy Ensemble Adaboost Results:
+Easy Ensemble Adaboost Results:
 
 - The Balanced Accuracy Score is 0.932
 
