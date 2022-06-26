@@ -95,8 +95,20 @@ Easy Ensemble Adaboost Results:
 
 ## Summary
 
+Overall when analyzing these models it is most important to minimize losses. The reason behind this is because a single unpaid loan has the potential to wipe out the gains made on between 5 (20% interest loans) and 20 (5% interest) loans.
+This implies that it is preferable to pass on potentially bad loans than it is to try to get every last loan that can be repaid. This suggests that it is crucial to maximize precision. 
 
- 
+Based on the precision of the models I would rank them:
 
+	1. Easy Ensemble Adaboost
+	2. Random Forrest
+	3. Logistic Regression with SMOTE Oversampling
+	4. Logistic Regression with Naive Oversampling
+	5. Logistic Regression with SMOTEEN Combination (Over and Under) Sampling
+	6. Logistic Regression with Undersampling
+
+
+All of these models have precisions of well over 99%, so an argument could be made that all of these models are sufficient to the task at hand. The model that I would recommend it the easy ensemble Adaboost model, because it has a 
+precision of 99.95%, but the worst of the group which is logistic regression with undersampling model, which had a 99.54% precision which would still most likely yield good results.  
 
 
